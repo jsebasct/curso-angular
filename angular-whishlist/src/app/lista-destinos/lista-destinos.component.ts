@@ -7,7 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ListaDestinosComponent implements OnInit {
 
-  constructor() { }
+  destinos: string[];
+
+  constructor() {
+    this.destinos = ['Barcelona', 'Buenos Aires', 'Lima', 'Barranquilla'];
+  }
 
   ngOnInit(): void {
   }
